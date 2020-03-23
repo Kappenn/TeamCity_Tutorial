@@ -28,7 +28,7 @@ Optionally, you can install the Gradle Build Scan Integration plugin. This can b
 ### Configuration
 
 In the TeamCity client, click Administration --> Projects --> Create project.
-![alt text](https://github.com/Kappenn/Tutorial_Demo/tree/master/images/create_project.png "How to start creating project")
+![alt text](/images/create_project.png "How to start creating project")
 
 ## Quickguide
 
