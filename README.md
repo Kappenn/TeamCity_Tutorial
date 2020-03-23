@@ -25,10 +25,27 @@ If another service uses the port, change the port in the XML node in <TeamCity d
   
 Optionally, you can install the Gradle Build Scan Integration plugin. This can be done from the JetBrains plugins repository in TeamCity or by downloading the zip manually and adding it in the Web UI or locally in the TeamCity data directory.
 
+On the first start of TeamCity you will be able to set the location of the TeamCity data directory, select your prefered location or keep it as default, then click **Proceed**.
+
+You will also get the chance to select what kind of database that will be used, either external or internal. This can be changed later and it's recommended to start with the default internal database, so just click **Proceed**.
+
+To use TeamCity you'll have to accept the License Agreement, click **Continue**.
+
+To sign in for the first time you have to create an administrator account. This is done by typing in your prefered credentials and just clicking **Create Account**.
+
 ### Configuration
 
-In the TeamCity client, click Administration --> Projects --> Create project.
-![alt text](/images/create_project.png "How to start creating project")
+In the TeamCity client, click **Administration** --> **Projects** --> **Create project**.
+![alt text](/images/create_project.png "How to start creating a project")
+
+Use the default option From the repository URL and enter the URL of the repository you want to build, also enter credentials if those are needed for authentication. Click **Proceed**.
+![alt text](/images/from_repo_url.png "Enter repo url")
+
+Just follow the steps and you should get an auto-detected gradle build step, select it and then click **Use selected**. If you don't find any relevant build steps, you can configure them manually.
+![alt text](/images/auto_detect.png "Auto detected build step")
+
+When ready to build the project, just click **Run** below **Adminstration**.
+![alt text](/images/auto_detect.png "Example of successful build")
 
 ## Quickguide
 
