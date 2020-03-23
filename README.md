@@ -32,11 +32,11 @@ In the TeamCity client, click Administration --> Projects --> Create project.
 
 ## Quickguide
 
-*Download: [TeamCity](https://www.jetbrains.com/teamcity/download/#section=section-get)
+- Download: [TeamCity](https://www.jetbrains.com/teamcity/download/#section=section-get)
 
-*Navigate to bin folder and run ./runAll.sh start``` or ```sh runAll.sh start```.
+- Navigate to bin folder and run ./runAll.sh start``` or ```sh runAll.sh start```.
 
-*http://localhost:8111/
+- http://localhost:8111/
 
 
 
