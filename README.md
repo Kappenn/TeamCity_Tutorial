@@ -9,7 +9,7 @@ In this tutorial we will look at TeamCity which is a build management and contin
 
 ## Getting Started
 
-Follow theses instruction to set up Teamcity with a gradle project. This setup will let you run TeamCity with a gradle project and can be modified for other framework as well.
+Follow theses instruction to set up TeamCity with a gradle project. This setup will let you run TeamCity with a gradle project and can be modified for other framework as well.
 
 ### Prerequisite
 
