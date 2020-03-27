@@ -4,7 +4,7 @@
 
 Continuous integration (CI) is the practice of automating the integration of code changes from multiple contributors into a single software project. The practice requires developers to integrate code often, at least once a day if possible to allow the detection of problems early. Today there are many automatic tools to assist the process and make sure that code is correct before integration. 
 
-In this tutorial we will look at TeamCity which is a build management and continuous integration server from JetBrains and how to set it up with a gradle project. We will look at installation and setup of Teamcity step by step for Linux/Mac.
+In this tutorial we will look at TeamCity which is a build management and continuous integration server from JetBrains and how to set it up with a gradle project in Java. We will look at installation and setup of Teamcity step by step for Linux/Mac. Feel free to use this [repo](https://github.com/Kappenn/Tutorial_Demo) for this tutorial and use it as a skleton for your future project. The Repo is written in Java and set up with Gradle.
 
 
 ## Getting Started
