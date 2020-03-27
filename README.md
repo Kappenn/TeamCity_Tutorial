@@ -38,7 +38,7 @@ To sign in for the first time you have to create an administrator account. This 
 In the TeamCity client, click **Administration** --> **Projects** --> **Create project**.
 ![alt text](/images/create_project.png "How to start creating a project")
 
-Use the default option From the repository URL and enter the URL of the repository you want to build, also enter credentials if those are needed for authentication. Click **Proceed**.
+Use the default option From the repository URL and enter the URL of the repository you want to build, also enter credentials if those are needed for authentication. Feel free to use this repo for this tutorial. Click **Proceed**.
 ![alt text](/images/from_repo_url.png "Enter repo url")
 
 Just follow the steps and you should get an auto-detected gradle build step, select it and then click **Use selected**. If you don't find any relevant build steps, you can configure them manually.
