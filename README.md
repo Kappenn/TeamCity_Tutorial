@@ -104,6 +104,9 @@ With the provided repo, an error is expected, and you can see where the error ha
 
 ![alt text](/images/end_screen_with_error.png "What went wrong?")
 
+See if you can see what the error is and try and fix it.
+<details><summary>Spoiler warning!!</summary> Add ``` () ``` after the test name in src/test/java/Tutorial/demo/AppTest.java 10 in the </details>
+
 
 ## 6. Quickguide
 
