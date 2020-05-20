@@ -61,7 +61,7 @@ $ ls /opt/gradle/gradle-6.4.1
 Step 3. Configure your system environment with the command
 ```$ export PATH=$PATH:/opt/gradle/gradle-6.4.1/bin```
 
-Step 4. Verifty your installation with the command
+Step 4. Verify your installation with the command
 ```$ gradle -v```
 
 #### TeamCity
@@ -88,17 +88,20 @@ To sign in for the first time you have to create an administrator account. This 
 In the TeamCity client, click **Administration** --> **Projects** --> **Create project**.
 ![alt text](/images/createproject.gif "How to start creating a project")
 
-Use the default option From the repository URL and enter the URL of the repository you want to build, also enter credentials if those are needed for authentication. Feel free to use this repo for this tutorial. Click **Proceed**.
+Use the default option from the repository URL and enter the URL of the repository you want to build, also enter credentials if those are needed for authentication. Feel free to use this repo for this tutorial. Click **Proceed**.
 ![alt text](/images/repourl.gif "Enter repo url")
 
-Next, you'll get the chance to name your prject and build. When done, click **Proceed**
+Next, you'll get the chance to name your project and build. When done, click **Proceed**
 ![alt text](/images/proceed.gif "Project and build name")
 
-TeamCity will now automatically detect build steps for you, one of them should be a gradle build step. Select it and then click **Use selected**. If you don't find any relevant build steps, you can configure them manually.
+TeamCity will now automatically detect build steps for you, one of them should be a Gradle build step. Select it and then click **Use selected**. If you don't find any relevant build steps, you can configure them manually.
 ![alt text](/images/autodetect.gif "Auto detected build step")
 
 When ready to build the project, just click **Run** below **Adminstration**.
 ![alt text](/images/run.gif "Run that thing")
+
+With the provided repo, an error is expected, and you can see where the error happened in the code through the Build failure condition-tab.
+
 
 ## 6. Quickguide
 
