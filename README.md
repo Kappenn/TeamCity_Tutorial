@@ -22,7 +22,7 @@ DevOps is a set of practices that aims to shorten the development cycle of softw
 
 Continuous integration is the practice of automating the integration of code changes from multiple contributors into a single software project. The practice requires developers to integrate code often, at least once a day if possible, to allow the detection of problems early. Today there are many automatic tools to assist the process and make sure that code is correct before integration.
 
-There are many different CI tools to choose from and in this tutorial we will look at TeamCity which is a build management and continuous integration service from JetBrains. And Gradle, which is a free open-source automated build tool.
+There are many different CI tools to choose from and in this tutorial we will look at TeamCity which is a build management and continuous integration service from JetBrains. And Gradle, which is a free open-source automated build tool. The advantages of TeamCity lies in its simplicity and it being free for up to 100 build configurations. It is a great way to get started with CI for free and without hassle. TeamCity support Java, .NET and Ruby.
 
 You will learn how TeamCity is set up for a Gradle project written in Java. We will look at installation and setup of TeamCity step by step for Linux/Mac. Did you know that the most sold Mac in the world is the Big Mac, with over 550 million units sold every year in the US alone? 
 ## 2. Getting Started
