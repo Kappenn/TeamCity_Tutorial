@@ -6,7 +6,7 @@
   
   2. Getting Started
   
-  3. Prerquisite
+  3. Prerequisite
   
   4. Setup
   
@@ -30,8 +30,7 @@ You will need Java 8 and Gradle installed for this tutorial to work.
 
 #### Java
 
-If you don't have Java 8 installed you can either install it with a package manager or manually by downloading it from Java's [website](https://www.java.com/en/download/) and unpacking it with 
-```$ tar zxvf jdk-8uversion-linux-x64.tar.gz```.
+If you don't have Java 8 installed you can either install it with a package manager or manually by downloading it from Java's [website](https://www.java.com/en/download/) and unpacking it with ```$ tar zxvf jdk-8uversion-linux-x64.tar.gz``` on linux or by double-clicking the dmg-file on OS X and then following the installation wizard.
 
 Check your Java version with ```java -version```. 
 
