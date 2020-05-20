@@ -40,7 +40,13 @@ If you don't have Java 8 installed you can either install it with a package mana
 
 Check your Java version with ```java -version```. 
 
-Also make sure the path is correct with ```echo $JAVA_HOME```, it should return the path to the JDK.
+Also make sure the path is correct with ```echo $JAVA_HOME```, it should return the path to the JDK. If the isn't correct, you can fix it with these commands:
+```
+export JAVA_HOME=<path>
+
+export PATH=$JAVA_HOME/bin:$PATH
+``` 
+where <path> is the path to the JDK.
 
 #### Gradle
 
