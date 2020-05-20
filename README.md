@@ -12,7 +12,9 @@
   
   5. Configuration
   
-  6. Quickguide
+  6. Reflection
+  
+  7. Quick guide
   
 ### 1. Background
 
@@ -107,8 +109,14 @@ With the provided repo, an error is expected, and you can see where the error ha
 See if you can see what the error is and try and fix it.
 <details><summary>Spoiler warning!!</summary> Add () after the test name in src/test/java/Tutorial/demo/AppTest.java 10 in the </details>
 
+## 6. Reflection
 
-## 6. Quickguide
+So how do TeamCity compare to other CI tools? TeamCity has a modern interface and that makes it easy to configure and use. It can be integrated into a wide range of tools and technologies such as Ant, Maven, Gradle, JUnit and more. It is also possible to use TeamCity with cloud and take advantage of it by putting build agents on it. Furthermore, TeamCity is a professional service and that means it comes with customer support.
+
+Play around a bit in the interface and see what more information about the build TeamCity give the user through the different tabs in Figure1.
+
+
+## 7. Quick guide
 
 - Download: [TeamCity](https://www.jetbrains.com/teamcity/download/#section=section-get)
 
