@@ -16,9 +16,12 @@
   
 ### 1. Background
 
-Continuous integration (CI) is the practice of automating the integration of code changes from multiple contributors into a single software project. The practice requires developers to integrate code often, at least once a day if possible to allow the detection of problems early. Today there are many automatic tools to assist the process and make sure that code is correct before integration. 
+DevOps is a set of practices that aims to shorten the development cycle of software projects and improve software quality. Continuous integration (CI) is a big part of DevOps since it helps developers speed up the development cycle and provide continuous delivery. Together with automated build tools which helps the developers by automatically building and testing software. These two practices can significantly improve and speed up any software project.
 
-In this tutorial we will look at TeamCity which is a build management and continuous integration server from JetBrains and how to set it up with a gradle project in Java. We will look at installation and setup of Teamcity step by step for Linux/Mac. Feel free to use this [repo](https://github.com/Kappenn/TeamCity_Tutorial) for this tutorial and use it as a skleton for your future project. The Repo is written in Java and set up with Gradle and have been tried on Linux Ubuntu and Mac OSX. Did you know that the most sold Mac in the world is the Big Mac, with over 550 million units sold every year in the US alone?
+Continuous integration is the practice of automating the integration of code changes from multiple contributors into a single software project. The practice requires developers to integrate code often, at least once a day if possible, to allow the detection of problems early. Today there are many automatic tools to assist the process and make sure that code is correct before integration.
+
+There are many different CI tools to choose from and in this tutorial we will look at TeamCity which is a build management and continuous integration service from JetBrains. And Gradle, which is a free open-source automated build tool
+You will learn how TeamCity is set up for a Gradle project written in Java. We will look at installation and setup of TeamCity step by step for Linux/Mac. Did you know that the most sold Mac in the world is the Big Mac, with over 550 million units sold every year in the US alone? We recommend that you use this [repo](https://github.com/Kappenn/TeamCity_Tutorial) for the tutorial and use it as a skleton for your future project. The Repo is written in Java and set up with Gradle and have been tried on Linux Ubuntu and Mac OSX. Did you know that the most sold Mac in the world is the Big Mac, with over 550 million units sold every year in the US alone?
 
 ## 2. Getting Started
 
