@@ -69,16 +69,15 @@ Step 4. Verifty your installation with the command
 Download TeamCity from the [website](https://www.jetbrains.com/teamcity/download/#section=section-get). Extract the compressed folder, either by right clicking it and selecting your tool of choice or by using the command ```tar xfz TeamCity<version number>.tar.gz```.
 
 ### 4. Setup
-To start the server and default agent, navigate to the bin folder inside the TeamCity folder and run the command ``` ./runAll.sh start``` or ```sh runAll.sh start```. To stop the server, use ```./runAll.sh stop``` or ``` sh runAll.sh stop```.
+To start the server and default agent, navigate to the bin folder inside the TeamCity folder and run the command ```./runAll.sh start``` or ```sh runAll.sh start```. To stop the server, use ```./runAll.sh stop``` or ```sh runAll.sh stop```.
 
-Open TeamCity by connecting via the browser with http://localhost:8111/.
-If another service uses the port, change the port in the XML node in <TeamCity directory>/conf/server.xml
+Open TeamCity by connecting via the browser with http://localhost:8111/. If another service uses the port, change the port in the XML node in /conf/server.xml
   
 Optionally, you can install the Gradle Build Scan Integration plugin. This can be done from the JetBrains plugins repository in TeamCity or by downloading the zip manually and adding it in the Web UI or locally in the TeamCity data directory.
 
 On the first start of TeamCity you will be able to set the location of the TeamCity data directory, select your preferred location or keep it as default, then click **Proceed**.
 
-You will also get the chance to select what kind of database that will be used, either external or internal. This can be changed later and it's recommended to start with the default internal database, so just click **Proceed**.
+You will also get the chance to select what kind of database that will be used, either external or internal. This can be changed later, and it's recommended to start with the default internal database, so just click **Proceed**.
 
 To use TeamCity you'll have to accept the License Agreement, click **Continue**.
 
