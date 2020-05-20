@@ -38,13 +38,13 @@ You will need Java 8 and Gradle installed for this tutorial to work.
 
 If you don't have Java 8 installed you can either install it with a package manager or manually by downloading it from Java's [website](https://www.java.com/en/download/) and unpacking it with ```$ tar zxvf jdk-8uversion-linux-x64.tar.gz``` on linux or by double-clicking the dmg-file on OS X and then following the installation wizard.
 
-Check your Java version with ```java -version```. 
+Check your Java version with ```$ java -version```. 
 
-Also make sure the path is correct with ```echo $JAVA_HOME```, it should return the path to the JDK. If the isn't correct, you can fix it with these commands:
+Also make sure the path is correct with ```$ echo $JAVA_HOME```, it should return the path to the JDK. If the isn't correct, you can fix it with these commands:
 ```
-export JAVA_HOME=<path>
+$ export JAVA_HOME=<path>
 
-export PATH=$JAVA_HOME/bin:$PATH
+$ export PATH=$JAVA_HOME/bin:$PATH
 ``` 
 where <path> is the path to the JDK.
 
@@ -74,10 +74,10 @@ Step 4. Verify your installation with the command
 
 #### TeamCity
 
-Download TeamCity from the [website](https://www.jetbrains.com/teamcity/download/#section=section-get). Extract the compressed folder, either by right clicking it and selecting your tool of choice or by using the command ```tar xfz TeamCity<version number>.tar.gz```.
+Download TeamCity from the [website](https://www.jetbrains.com/teamcity/download/#section=section-get). Extract the compressed folder, either by right clicking it and selecting your tool of choice or by using the command ```$ tar xfz TeamCity<version number>.tar.gz```.
 
 ### 4. Setup
-To start the server and default agent, navigate to the bin folder inside the TeamCity folder and run the command ```./runAll.sh start``` or ```sh runAll.sh start```. To stop the server, use ```./runAll.sh stop``` or ```sh runAll.sh stop```.
+To start the server and default agent, navigate to the bin folder inside the TeamCity folder and run the command ```$ ./runAll.sh start``` or ```$ sh runAll.sh start```. To stop the server, use ```$ ./runAll.sh stop``` or ```$ sh runAll.sh stop```.
 
 Open TeamCity by connecting via the browser with http://localhost:8111/. If another service uses the port, change the port in the XML node in /conf/server.xml
   
