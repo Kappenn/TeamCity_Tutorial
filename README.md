@@ -101,6 +101,7 @@ When ready to build the project, just click **Run** below **Adminstration**.
 ![alt text](/images/run.gif "Run that thing")
 
 With the provided repo, an error is expected, and you can see where the error happened in the code through the Build failure condition-tab.
+
 ![alt text](/images/end_screen_with_error.png "What went wrong?")
 
 
