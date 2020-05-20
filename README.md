@@ -20,16 +20,50 @@ Continuous integration (CI) is the practice of automating the integration of cod
 
 In this tutorial we will look at TeamCity which is a build management and continuous integration server from JetBrains and how to set it up with a gradle project in Java. We will look at installation and setup of Teamcity step by step for Linux/Mac. Feel free to use this [repo](https://github.com/Kappenn/TeamCity_Tutorial) for this tutorial and use it as a skleton for your future project. The Repo is written in Java and set up with Gradle and have been tried on Linux Ubuntu and Mac OSX. Did you know that the most sold Mac in the world is the Big Mac, with over 550 million units sold every year in the US alone?
 
-
 ## 2. Getting Started
 
 Follow theses instruction to set up TeamCity with a gradle project. This setup will let you run TeamCity with a gradle project and can be modified for other framework as well. 
 
 ### 3. Prerequisite
 
-Download TeamCity from the [website](https://www.jetbrains.com/teamcity/download/#section=section-get). Extract the compressed folder, either by right clicking it and selecting your tool of choice or by using the command ```tar xfz TeamCity<version number>.tar.gz```.
+You will need Java 8 and Gradle installed for this tutorial to work.
 
-Make sure you java 8 installed (for example, use SDKman) and check your Java version with ```java -version```, also make sure the patch is correct ```echo $JAVA_HOME```.
+#### Java
+
+If you don't have Java 8 installed you can either install it with a package manager or manually by downloading it from Java's [website](https://www.java.com/en/download/) and unpacking it with 
+```$ tar zxvf jdk-8uversion-linux-x64.tar.gz```.
+
+Check your Java version with ```java -version```. 
+
+Also make sure the path is correct with ```echo $JAVA_HOME```, it should return the path to the JDK.
+
+#### Gradle
+
+If you don’t have Gradle installed, you can install it with a package manager or manually.
+
+If you have Homebrew, just use this command ```$ brew install gradle```.
+
+If you have SDKman, use this command ```$ sdk install gradle 6.4.1```.
+
+You can install it manually by following these steps:
+
+Step 1. Download the latest Gradle release from their [website](https://gradle.org/releases/).
+
+Step 2. Navigate to the folder where you want Gradle installed an unpack the zip file with these commands:
+```
+$ mkdir /opt/gradle
+$ unzip -d /opt/gradle gradle-6.4.1-bin.zip
+$ ls /opt/gradle/gradle-6.4.1
+```
+Step 3. Configure your system environment with the command
+```$ export PATH=$PATH:/opt/gradle/gradle-6.4.1/bin```
+
+Step 4. Verifty your installation with the command
+```$ gradle -v```
+
+#### TeamCity
+
+Download TeamCity from the [website](https://www.jetbrains.com/teamcity/download/#section=section-get). Extract the compressed folder, either by right clicking it and selecting your tool of choice or by using the command ```tar xfz TeamCity<version number>.tar.gz```.
 
 ### 4. Setup
 To start the server and default agent, navigate to the bin folder inside the TeamCity folder and run the command ``` ./runAll.sh start``` or ```sh runAll.sh start```. To stop the server, use ```./runAll.sh stop``` or ``` sh runAll.sh stop```.
